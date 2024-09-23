@@ -16,7 +16,7 @@ public class Main {
 
         String name = scanner.nextLine();
 
-        System.out.println("Hello " + name + "! Welcome");
+        System.out.println("Hello " + name + "! This is the cherry-picked changed greeting version!");
 
         scanner.close();
     }
