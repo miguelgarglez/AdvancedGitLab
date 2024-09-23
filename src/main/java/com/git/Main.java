@@ -8,6 +8,6 @@ public class Main {
         LocalDateTime now = LocalDateTime.now();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
         String formattedNow = now.format(formatter);
-        System.out.println("Current date: " + formattedNow);
+        System.out.println("Displaying current date: " + formattedNow);
     }
 }
